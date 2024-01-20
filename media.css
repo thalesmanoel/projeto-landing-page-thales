@@ -9,4 +9,8 @@
     .logolinguagens{
         gap: 1rem;
     }
+
+    .acessarportifolio{
+        transform: translate(-10px, 0px);
+    }
 }
