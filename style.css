@@ -59,6 +59,7 @@ header{
     padding: 0.8rem;
     background-color: black;
     min-height: 30px;
+    width: 100%;
 }
 
 .checkbox{
@@ -257,6 +258,14 @@ section.terceirasecao > div > p{
     color: var(--cortxt);
     font-weight: bold;
     text-align: justify;
+}
+
+.botaoacessarport{
+    display: flex;
+    flex-direction: column;
+    justify-content: row;
+    align-items: center;
+    align-content: flex-end;
 }
 
 div .acessarport{
