@@ -1,0 +1,364 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--cor3);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--cor0);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: var(--cor1);
+}
+
+:root{
+    --cortxt: #ffffff;
+    --cor00: #beb6b3;
+    --cor0: #404040; 
+    --cor1: #000000; 
+    --cor2: #b0aaa8;
+    --cor3: #9c9c9c;
+    --cor4: #8e8e8e;
+    --cor5: #000000;
+}
+
+body, header, section.primeirasecao, strong, p, section.segundasecao, section.terceirasecao, section.quartasecao, footer{
+    transition: 0.5s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--cor4);
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.8rem;
+    background-color: black;
+    min-height: 30px;
+}
+
+.checkbox{
+    opacity: 0;
+    position: absolute;
+    
+}
+
+.label {
+    background-color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    position: relative;
+    height: 10px;
+    width: 35px;
+  
+  }
+  
+  
+.label .ball {
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    padding: 3.5px;
+    transform: translate(-30%, -28%) scale(0.95);
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball{
+    transform: translate(80%, -28%);
+}
+
+.bi.bi-moon{
+    color: rgb(0, 0, 0);
+    transform: translate(30%, -15%);
+}
+
+.bi.bi-sun{
+    color: rgb(0, 0, 0);
+    transform: translate(-30%, -15%);
+}
+
+div.img-header{
+    height: 100%;
+}
+
+img.logo{
+    max-width: 60px;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover{
+    transform: translate(-2px, -2px);
+    transition: 0.3s;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section{
+    padding: 4rem;
+}
+
+section.primeirasecao{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 550px;
+}
+
+section.primeirasecao > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 300px;
+}
+
+h1{
+    font-size: 4rem;
+    color: var(--cortxt);
+    letter-spacing: 5px;
+}
+
+strong{
+    color: var(--cor5);
+}
+
+section.primeirasecao > div > p{
+    color: var(--cortxt);
+    font-weight: bold;
+    max-width: 700px;
+}
+
+section.primeirasecao > div > img{
+    max-width: 470px;
+    width: 100%;
+}
+
+section.segundasecao{
+    background-color: var(--cor3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.3rem;
+}
+
+.bi.bi-arrow-up-circle{
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    background-color: var(--cor2);
+    color: var(--cor5);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.logolinguagens{
+    display: flex;
+    gap: 2rem;
+}
+
+.logohtml, .logocss, .logojs{
+    border: 1px solid transparent;
+    padding: 10px;
+}
+
+.logohtml{
+    width: 150px;
+}
+.logocss{
+    width: 107px;
+}
+.logojs{
+    width: 122px;
+    margin-left: 20px;
+}
+
+.logolinguagens img:hover{
+    border: 1px solid var(--cortxt);
+    border-radius: 5px;
+    transition: 0.6s;
+    padding: 10px;
+    transform: translate(-3px, -3px);
+}
+
+.titulo{
+    color: var(--cortxt);
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+section.terceirasecao{
+    display: flex;
+    flex-direction: column;
+}
+
+section.terceirasecao > div{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section.terceirasecao > div > img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+section.terceirasecao > div > p{
+    max-width: 600px;
+    color: var(--cortxt);
+    font-weight: bold;
+    text-align: justify;
+}
+
+div .acessarport{
+    padding: 8px;
+    color: var(--cortxt);
+    border-radius: 5px;
+    border: var(--cortxt) solid 1px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.acessarport{
+    text-decoration: none;
+    text-align: center;
+    max-width: 200px;
+}
+
+.acessarport:hover{
+    background-color: var(--cor00);
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+    border: none;
+}
+
+section.quartasecao{
+    background-color: var(--cor3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.3rem;
+}
+
+section.quartasecao > ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+section.quartasecao p{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section.quartasecao p:hover{
+    transform: translate(-2px, -2px);
+    transition: 0.4s;
+}
+
+.carregando-container {
+    position: relative;
+  }
+  
+  .carregando {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 5px solid white;
+    border-top: 5px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer div a:hover{
+    transform: translate(-2px, -2px);
+    transition: 0.4s;
+}
+
+footer div p, .meunome{
+    color: var(--cortxt);
+}
+
+.meunome{
+    font-weight: bold;
+}
