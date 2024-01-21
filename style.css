@@ -59,7 +59,6 @@ header{
     padding: 0.8rem;
     background-color: black;
     min-height: 30px;
-    width: 100%;
 }
 
 .checkbox{
@@ -150,7 +149,7 @@ section.primeirasecao{
     gap: 2rem;
     flex-wrap: wrap;
     align-items: center;
-    min-height: 550px;
+    min-height: 320px;
 }
 
 section.primeirasecao > div{
@@ -187,7 +186,7 @@ section.segundasecao{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2.3rem;
+    gap: 1.8rem;
 }
 
 .bi.bi-arrow-up-circle{
@@ -203,6 +202,7 @@ section.segundasecao{
 
 .logolinguagens{
     display: flex;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -213,6 +213,9 @@ section.segundasecao{
 
 .logohtml{
     width: 150px;
+    padding: 10px 0px 10px 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .logocss{
     width: 107px;
@@ -225,7 +228,6 @@ section.segundasecao{
     border: 1px solid var(--cortxt);
     border-radius: 5px;
     transition: 0.6s;
-    padding: 10px;
     transform: translate(-3px, -3px);
 }
 
@@ -281,6 +283,7 @@ div .acessarport{
     text-decoration: none;
     text-align: center;
     max-width: 200px;
+
 }
 
 .acessarport:hover{
