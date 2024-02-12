@@ -302,25 +302,25 @@ section.quartasecao{
     gap: 2.3rem;
 }
 
-section.quartasecao > ul{
-    list-style: none;
+.item-meusprojetos{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    gap: 20px;
 }
 
-section.quartasecao p{
+.item-meusprojetos > a > img{
+    width: 200px;
+    height: 200px;
+}
+
+.item-meusprojetos p{
+    max-width: 400px;
+}
+
+.quartasecao  p, .item-meusprojetos p{
     color: black;
     font-size: 1rem;
     font-weight: bold;
-    cursor: pointer;
-}
-
-section.quartasecao p:hover{
-    transform: translate(-2px, -2px);
-    transition: 0.4s;
 }
 
 .carregando-container {
