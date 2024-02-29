@@ -304,11 +304,12 @@ section.quartasecao{
 
 .item-meusprojetos{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 60px;
 }
 
-.item-meusprojetos > a > img{
+.item-meusprojetos > .calculadora-juros > a > img{
     width: 200px;
     height: 200px;
 }
@@ -317,10 +318,27 @@ section.quartasecao{
     max-width: 400px;
 }
 
+
 .quartasecao  p, .item-meusprojetos p{
     color: black;
     font-size: 1rem;
     font-weight: bold;
+}
+
+.calculadora-juros{
+    display: flex;
+    gap: 15px;
+    flex-direction: row-reverse;
+}
+
+.cronometro-timer{
+    display: flex;
+    text-align: right;
+    gap: 15px;
+}
+
+.cronometro-timer img{
+    max-width: 350px;
 }
 
 .carregando-container {

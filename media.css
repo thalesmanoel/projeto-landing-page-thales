@@ -43,12 +43,11 @@
     }
 
     .item-meusprojetos{
-        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
-
-    .text-meusprojetos h2, .text-meusprojetos p{
+    .calculadora-juros, .cronometro-timer{
+        flex-direction: column;
         text-align: center;
     }
 
@@ -60,14 +59,15 @@
     }
 
     .item-meusprojetos{
-        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
 
-    .text-meusprojetos h2, .text-meusprojetos p{
+    .calculadora-juros, .cronometro-timer{
+        flex-direction: column;
         text-align: center;
     }
+    
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px){
@@ -75,37 +75,10 @@
         transform: translateX(-20%);
     }
 
-    .item-meusprojetos{
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .text-meusprojetos h2{
-        text-align: center;
-    }
-
-    .text-meusprojetos p{
-        max-width: 600px;
-    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .botaoacessarport{
         transform: translateX(-20%);
-    }
-
-    .item-meusprojetos{
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .text-meusprojetos h2{
-        text-align: center;
-    }
-
-    .text-meusprojetos p{
-        max-width: 700px;
     }
 }
