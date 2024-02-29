@@ -51,6 +51,10 @@
         text-align: center;
     }
 
+    .calculadora-juros p{
+        margin: auto;
+    }
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px){
@@ -67,14 +71,11 @@
         flex-direction: column;
         text-align: center;
     }
-    
-}
 
-@media screen and (min-width: 481px) and (max-width: 768px){
-    .botaoacessarport{
-        transform: translateX(-20%);
+    .calculadora-juros p{
+        margin: auto;
     }
-
+    
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){

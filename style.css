@@ -331,6 +331,8 @@ section.quartasecao{
     flex-direction: row-reverse;
 }
 
+
+
 .cronometro-timer{
     display: flex;
     text-align: right;
@@ -341,11 +343,11 @@ section.quartasecao{
     max-width: 350px;
 }
 
-.carregando-container {
+.carregando-container{
     position: relative;
   }
   
-  .carregando {
+.carregando{
     display: inline-block;
     width: 30px;
     height: 30px;
