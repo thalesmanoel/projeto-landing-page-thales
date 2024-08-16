@@ -201,26 +201,45 @@ section.segundasecao{
 
 .logolinguagens{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
 }
 
-.logohtml, .logocss, .logojs{
+.logohtml, .logocss, .logojs, .logojava, .logospring, .logosql{
     border: 1px solid transparent;
     padding: 10px;
 }
 
 .logohtml{
-    width: 150px;
+    max-width: 150px;
+    min-width: 100;
     padding: 10px 0px 10px 0px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 .logocss{
-    width: 107px;
+    max-width: 107px;
+    min-width: 100px;
 }
 .logojs{
-    width: 122px;
+    max-width: 122px;
+    min-width: 100px;
+}
+
+.logojava{
+    max-width: 170px;
+    min-width: 100px;
+}
+
+.logospring{
+    max-width: 200px;
+    min-width: 100px;
+}
+
+.logosql{
+    max-width: 200px;
+    min-width: 100px;
 }
 
 .logolinguagens img:hover{
