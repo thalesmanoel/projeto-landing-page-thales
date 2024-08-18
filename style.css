@@ -328,6 +328,11 @@ section.quartasecao{
     gap: 60px;
 }
 
+.item-meusprojetos > .apirestbiblioteca > a > img{
+    width: 400px;
+    height: 250px;
+}
+
 .item-meusprojetos > .calculadora-juros > a > img{
     width: 200px;
     height: 200px;
@@ -337,11 +342,16 @@ section.quartasecao{
     max-width: 400px;
 }
 
-
 .quartasecao  p, .item-meusprojetos p{
     color: black;
     font-size: 1rem;
     font-weight: bold;
+}
+
+.apirestbiblioteca{
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
 }
 
 .calculadora-juros{
@@ -349,8 +359,6 @@ section.quartasecao{
     gap: 15px;
     flex-direction: row-reverse;
 }
-
-
 
 .cronometro-timer{
     display: flex;

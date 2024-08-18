@@ -18,7 +18,7 @@
         align-items: center;
         justify-content: center;
     }
-    .calculadora-juros, .cronometro-timer{
+    .calculadora-juros, .cronometro-timer, .apirestbiblioteca{
         flex-direction: column;
         text-align: center;
     }
@@ -39,9 +39,14 @@
         justify-content: center;
     }
 
-    .calculadora-juros, .cronometro-timer{
+    .calculadora-juros, .cronometro-timer, .apirestbiblioteca{
         flex-direction: column;
         text-align: center;
+    }
+
+    .item-meusprojetos > .apirestbiblioteca > a > img{
+        width: 380px;
+        height: 230px;
     }
 
     .calculadora-juros p{
@@ -50,7 +55,24 @@
     
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (min-width: 769px) and (max-width: 992px){
+
+    .item-meusprojetos{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calculadora-juros, .cronometro-timer, .apirestbiblioteca{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .calculadora-juros p{
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
     .botaoacessarport{
         transform: translateX(-20%);
     }
