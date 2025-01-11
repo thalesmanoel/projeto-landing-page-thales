@@ -328,6 +328,16 @@ section.quartasecao{
     gap: 60px;
 }
 
+.item-meusprojetos > .academia > a > img{
+    width: 400px;
+    height: 300px;
+}
+
+.item-meusprojetos > .apirestrestaurant > a > img{
+    width: 450px;
+    height: 300px;
+}
+
 .item-meusprojetos > .apirestbiblioteca > a > img{
     width: 400px;
     height: 250px;
@@ -348,9 +358,20 @@ section.quartasecao{
     font-weight: bold;
 }
 
-.apirestbiblioteca{
+.academia{
     display: flex;
     gap: 15px;
+}
+
+.apirestrestaurant{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+
+}
+
+.apirestbiblioteca{
+    display: flex;
     flex-direction: row;
 }
 
