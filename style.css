@@ -328,6 +328,11 @@ section.quartasecao{
     gap: 60px;
 }
 
+.item-meusprojetos > .cadastro-produto > a > img{
+    width: 400px;
+    height: 300px;
+}
+
 .item-meusprojetos > .academia > a > img{
     width: 400px;
     height: 300px;
@@ -356,6 +361,12 @@ section.quartasecao{
     color: black;
     font-size: 1rem;
     font-weight: bold;
+}
+
+.cadastro-produto{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
 }
 
 .academia{

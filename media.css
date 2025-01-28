@@ -18,9 +18,15 @@
         align-items: center;
         justify-content: center;
     }
-    .calculadora-juros, .cronometro-timer, .apirestbiblioteca, .apirestrestaurant,.academia{
+
+    .calculadora-juros, .cronometro-timer, .apirestbiblioteca, .apirestrestaurant,.academia, .cadastro-produto{
         flex-direction: column;
         text-align: center;
+    }
+
+    .item-meusprojetos > .apirestbiblioteca > a > img{
+        width: 350px;
+        height: 220px;
     }
 
     .calculadora-juros p{
@@ -39,12 +45,10 @@
         justify-content: center;
     }
 
-    .calculadora-juros, .cronometro-timer, .apirestbiblioteca, .apirestrestaurant, .academia{
+    .calculadora-juros, .cronometro-timer, .apirestbiblioteca, .apirestrestaurant, .academia, .cadastro-produto{
         flex-direction: column;
         text-align: center;
     }
-    
-    
 
     .item-meusprojetos > .apirestbiblioteca > a > img{
         width: 380px;
@@ -64,7 +68,7 @@
         justify-content: center;
     }
 
-    .calculadora-juros, .cronometro-timer, .apirestbiblioteca, .apirestrestaurant, .academia{
+    .calculadora-juros, .cronometro-timer, .apirestbiblioteca, .apirestrestaurant, .academia, .cadastro-produto{
         flex-direction: column;
         text-align: center;
     }
